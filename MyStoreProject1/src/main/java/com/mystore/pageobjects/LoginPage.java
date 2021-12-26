@@ -24,6 +24,7 @@ public class LoginPage extends BaseClass {
 	@FindBy(id="passwd")
 	private WebElement password;
 
+	// submit button is below
 	@FindBy(id="SubmitLogin")
 	private WebElement signInBtn;
 	
